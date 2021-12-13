@@ -1,0 +1,73 @@
+html {
+	--bg-color: rgb(12 12 12);
+	--fg-color: rgb(240 240 240);
+
+	font-size: 62.5%;
+}
+body {
+	background-color: var(--bg-color);
+	color: var(--fg-color);
+	font-family: "Trebuchet MS", "Lucida Sans", Arial, sans-serif;
+	font-size: 2rem;
+	text-align: center;
+}
+h1 {
+	font-family: "Gill Sans MT", "Arial Black", Arial, sans-serif;
+	text-transform: uppercase;
+}
+select, input, button {
+	margin: 0.5rem;
+	padding: 2rem 3rem;
+	border: medium solid rgb(100 100 100);
+	border-radius: 0.5rem;
+	outline: none;
+	background-color: var(--bg-color);
+	color: var(--fg-color);
+	font-family: "Trebuchet MS", "Lucida Sans", Arial, sans-serif;
+	font-size: 2rem;
+	transition-duration: 400ms;
+}
+input {
+	padding: 2.5rem 3.5rem;
+	transition-duration: 0ms;
+}
+select:hover {
+	border-color: var(--fg-color);
+	cursor: pointer;
+}
+button:hover {
+	border-color: var(--fg-color);
+	cursor: pointer;
+	background-color: var(--fg-color);
+	color: rgb(12 12 12);
+}
+section {
+	padding: 2rem;
+}
+#result {
+	font-size: 3.5rem;
+}
+.small {
+	font-size: 50%;
+}
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 1.2rem;
+	background-color: rgb(5 5 5);
+	font-family: "Gill Sans MT", "Arial Black", Arial, sans-serif;
+	font-size: 1.6rem;
+	text-transform: uppercase;
+}
+footer a {
+	margin: 0.5rem;
+	padding: 0.75rem;
+	color: rgb(100 100 100);
+	transition-duration: 400ms;
+}
+footer a:hover {
+	color: var(--fg-color);
+	text-decoration: none;
+}

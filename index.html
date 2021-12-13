@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Number converter</title>
+
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js" defer></script>
+</head>
+
+<body>
+	<h1>Number converter</h1>
+	<section>
+		<label for="from-select">From</label>
+		<select id="from-select">
+			<option>Binary</option>
+			<option>Octal</option>
+			<option>Decimal</option>
+			<option selected>Hexadecimal</option>
+		</select>
+		<wbr>
+		<label for="to-select">To</label>
+		<select id="to-select">
+			<option>Binary</option>
+			<option>Octal</option>
+			<option selected>Decimal</option>
+			<option>Hexadecimal</option>
+		</select>
+	</section>
+	<section>
+		<input placeholder="Enter a number" autofocus id="input">
+	</section>
+	<div>
+		<button id="convert-btn">Convert</button>
+	</div>
+	<p id="result"></p>
+	<footer>
+		<a href="https://github.com/SomeNormalRando/number-converter" target="blank">Source code</a>
+		<a href="https://github.com/SomeNormalRando/" target="blank">My GitHub</a>
+	</footer>
+</body>
+
+</html>
